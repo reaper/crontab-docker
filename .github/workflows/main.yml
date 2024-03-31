@@ -31,7 +31,7 @@ jobs:
         with:
           pull: true
           push: true
-          tags: r3aper/nextcloud:latest
+          tags: r3aper/crontab:latest
           cache-from: type=registry,ref=r3aper/crontab:latest
           cache-to: type=inline
       -
